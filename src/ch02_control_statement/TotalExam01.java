@@ -1,46 +1,51 @@
 package ch02_control_statement;
 
+/*
 public class TotalExam01 {
     static void main(String[] args) {
         String name = "김철수";
         int kor = 85, eng = 70, math = 90;
+        String grade;
+        String message = "" ;
         double _grade = (kor + eng + math)/3.0;
                 System.out.println("이름 : " + name);
-        String message ;
-        System.out.printf("국어 : %d, 영어 : %d, 수학 : %d ", kor, eng, math);
 
-        System.out.printf("총점 : %d, 평균 : %.3f", kor+eng+math, _grade);
-        /*String grade;
+
+
         if (_grade >= 90) {
-            System.out.println("A");
+            grade = "A";
         } else if (_grade < 90 && _grade >=80) {
-            System.out.println("B");
+            grade = "B";
         } else if (_grade < 80 && _grade >=70 ) {
-            System.out.println("C");
+            grade = "C";
         } else if (_grade < 70 && _grade >=60) {
-            System.out.println("D");
+            grade = "D";
         } else if (_grade < 60) {
-            System.out.println("F");
+            grade = "F";
         } else {
             System.out.println("잘못된 입력입니다.");
         }
-        */
-
-        /*switch(grade){
+        switch (grade) {
             case "A" : case "B" :
-                message = "참 잘 하셨습니다";
-                System.out.printf("message");
+                message += "참 잘 하셨습니다";
+                break;
             case "C" : case "D" :
-                message = "조금만 더 노력하세요" ;
-                System.out.printf("message");
+                message += "조금만 더 노력하세요" ;
+                break;
             case "F" :
-                message = "다음 학기에 재수강하세요";
-                System.out.printf("message");
+                message += "다음 학기에 재수강하세요";
+                break;
         }
-*/
+        System.out.println("이름 : " + name + "님");
+        System.out.println("국어 : " + +kor + "점, 영어" + eng + "점, 수학 : " + math + "점");
+        System.out.println("총점 : " + (kor + eng + math));
+        System.out.println("평균 : " + _grade);
+        System.out.println("학점 : " + grade);
+        System.out.println("메시지 : " + message);
+
     }
 }
-
+*/
 
 /*
 이름과 국어, 영어, 수학 점수를 이용하여 학점을 매기세요.
