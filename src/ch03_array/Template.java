@@ -1,4 +1,4 @@
-package ch02_control_statement;
+package ch03_array;
 
 public class Template {
     static void main(String[] args) {
