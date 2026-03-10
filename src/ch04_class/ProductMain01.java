@@ -10,7 +10,7 @@ public class ProductMain01 {
 
         blackbean = new Product01(); // 짜파게티
 
-        // 단계 03 : 멤버 별수에 값을 할당
+        // 단계 03 : 멤버 변수에 값을 할당
         // .을 멤버 참조 연산자라고 부릅니다.
         shin.name = "신라면";
         shin.price = 1000 ;
