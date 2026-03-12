@@ -5,6 +5,7 @@ public class MyArr01 {
         int x = 3;
         int y = 5;
 
+
         //배열 정의 : 정수 3개를 배열로 만들어 봅시다.
         // 타입[] 배열이름 = new 타입[요소개수];
         //요소 개수는 "배열이름.length"라는 메소드로 접근이 가능합니다.
@@ -26,6 +27,10 @@ public class MyArr01 {
             System.out.println(brr[i]);
         }
 
+
+        for(int item : arr ) {
+            System.out.println(item);
+        }
     }
 
 }
