@@ -39,6 +39,7 @@ public class InheTest05 {
                 ((Cappuccino05)item).Foam(70.0);
             }
 
+
                 item.drink();
 
                 System.out.println();
